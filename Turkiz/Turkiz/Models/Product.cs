@@ -4,7 +4,6 @@ using Turkiz.Models;
 namespace Turkiz.Model
 
 {
-  
     public class Product
     {
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
