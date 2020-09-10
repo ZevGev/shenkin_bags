@@ -19,16 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faa34f3f-9bf6-42b4-848a-89ffc51b6bd2" name="Default Changelist" comment="sec_commit">
-      <change afterPath="$PROJECT_DIR$/Turkiz/Models/TransactioinType.cs" afterDir="false" />
+    <list default="true" id="faa34f3f-9bf6-42b4-848a-89ffc51b6bd2" name="Default Changelist" comment="Elior'scommit">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Turkiz/Data/ShenkinBagsContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Turkiz/Models/Transaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/Models/Transaction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Turkiz/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turkiz/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turkiz/Turkiz.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/Turkiz.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Turkiz/obj/Debug/netcoreapp3.1/Turkiz.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/Debug/netcoreapp3.1/Turkiz.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Turkiz/obj/Debug/netcoreapp3.1/Turkiz.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/Debug/netcoreapp3.1/Turkiz.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Turkiz/obj/Turkiz.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/Turkiz.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Turkiz/obj/Turkiz.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/Turkiz.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Turkiz/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Turkiz/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Turkiz/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/project.packagespec.json" afterDir="false" />
@@ -52,6 +53,7 @@
     <setting file="file://$PROJECT_DIR$/Turkiz/Models/ProductType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Turkiz/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Turkiz/Models/Color.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Turkiz/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Turkiz/obj/Debug/netcoreapp3.1/Turkiz.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Turkiz/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Turkiz/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
@@ -66,6 +68,9 @@
         <option value="$PROJECT_DIR$/Turkiz/Models/TransactioinType.cs" />
         <option value="$PROJECT_DIR$/Turkiz/Models/Transaction.cs" />
         <option value="$PROJECT_DIR$/Turkiz/Models/User.cs" />
+        <option value="$PROJECT_DIR$/Turkiz/Turkiz.csproj" />
+        <option value="$PROJECT_DIR$/Turkiz/Data/ShenkinBagsContext.cs" />
+        <option value="$PROJECT_DIR$/Turkiz/Startup.cs" />
       </list>
     </option>
   </component>
@@ -78,11 +83,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Turkiz">
     <configuration name="Turkiz" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -142,7 +148,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599741663753</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Elior'scommit">
+      <created>1599744674108</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599744674108</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Elior'scommit">
+      <created>1599744686048</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599744686048</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,28 +184,46 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sec_commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="sec_commit" />
+    <MESSAGE value="Elior'scommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Elior'scommit" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1599658811940">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="886" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599745493597">
+      <screen x="43" y="23" width="1877" height="1057" />
+    </state>
+    <state x="886" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/43.23.1877.1057@43.23.1877.1057" timestamp="1599745493597" />
+    <state width="917" height="290" key="GridCell.Tab.0.bottom" timestamp="1599745341115">
+      <screen x="43" y="23" width="1877" height="1057" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599658811940" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1599658811938">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="917" height="290" key="GridCell.Tab.0.bottom/43.23.1877.1057@43.23.1877.1057" timestamp="1599745341115" />
+    <state width="917" height="290" key="GridCell.Tab.0.center" timestamp="1599745341114">
+      <screen x="43" y="23" width="1877" height="1057" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1599658811938" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1599658811936">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="917" height="290" key="GridCell.Tab.0.center/43.23.1877.1057@43.23.1877.1057" timestamp="1599745341114" />
+    <state width="917" height="290" key="GridCell.Tab.0.left" timestamp="1599745341113">
+      <screen x="43" y="23" width="1877" height="1057" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1599658811936" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1599658811939">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="917" height="290" key="GridCell.Tab.0.left/43.23.1877.1057@43.23.1877.1057" timestamp="1599745341113" />
+    <state width="917" height="290" key="GridCell.Tab.0.right" timestamp="1599745341115">
+      <screen x="43" y="23" width="1877" height="1057" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1599658811939" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1599657485055">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="917" height="290" key="GridCell.Tab.0.right/43.23.1877.1057@43.23.1877.1057" timestamp="1599745341115" />
+    <state x="331" y="128" key="SettingsEditor" timestamp="1599745900377">
+      <screen x="43" y="23" width="1877" height="1057" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1599657485055" />
+    <state x="331" y="128" key="SettingsEditor/43.23.1877.1057@43.23.1877.1057" timestamp="1599745900377" />
+    <state x="144" y="171" width="1677" height="857" key="VCS.FileHistoryDialog" timestamp="1599746371315">
+      <screen x="43" y="23" width="1877" height="1057" />
+    </state>
+    <state x="144" y="171" width="1677" height="857" key="VCS.FileHistoryDialog/43.23.1877.1057@43.23.1877.1057" timestamp="1599746371315" />
+    <state x="578" y="291" key="Vcs.Push.Dialog.v2" timestamp="1599744931668">
+      <screen x="43" y="23" width="1877" height="1057" />
+    </state>
+    <state x="578" y="291" key="Vcs.Push.Dialog.v2/43.23.1877.1057@43.23.1877.1057" timestamp="1599744931668" />
   </component>
 </project>
