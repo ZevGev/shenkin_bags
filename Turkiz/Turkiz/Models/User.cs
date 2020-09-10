@@ -7,7 +7,7 @@ namespace Turkiz.Models
         public string Password { get; set; }
         public string Email { get; set; }
         public string? Phone { get; set; }
-        public bool UserType { get; set; } // 0 = client 1 = admin
+        public UserType UserType { get; set; } // 0 = client 1 = admin
         
         
     }

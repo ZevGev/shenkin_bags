@@ -15,7 +15,7 @@ namespace Turkiz.Models
         public string UserName { get; set; } // Foreign key
         public ICollection<Product> Products{ get; set; } // All transaction items
         public float TotalCost { get; set; }
-        public bool TransactionType { get; set; } // 0 = purchase 1 = return
+        public TransactioinType TransactionType { get; set; } // 0 = purchase 1 = return
         
         
         

@@ -20,15 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faa34f3f-9bf6-42b4-848a-89ffc51b6bd2" name="Default Changelist" comment="sec_commit">
-      <change afterPath="$PROJECT_DIR$/Turkiz/Models/Gender.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turkiz/Models/UserType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Turkiz/Models/TransactioinType.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Turkiz/Models/Color.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/Models/Color.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Turkiz/Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/Models/Product.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Turkiz/Models/ProductType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/Models/ProductType.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Turkiz/Models/Transaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/Models/Transaction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Turkiz/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turkiz/obj/Debug/netcoreapp3.1/Turkiz.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/Debug/netcoreapp3.1/Turkiz.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turkiz/obj/Debug/netcoreapp3.1/Turkiz.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/Debug/netcoreapp3.1/Turkiz.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turkiz/obj/Turkiz.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/Turkiz.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turkiz/obj/Turkiz.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/Turkiz.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turkiz/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turkiz/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turkiz/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turkiz/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,34 +42,30 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="main" />
+        <entry key="$PROJECT_DIR$/.." value="sec_commit" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Turkiz/obj/Debug/netcoreapp3.1/Turkiz.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Turkiz/Models/ProductBrand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Turkiz/Models/ProductType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Turkiz/Models/Color.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Turkiz/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Turkiz/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Turkiz/Models/UserType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Turkiz/Models/Color.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Turkiz/obj/Debug/netcoreapp3.1/Turkiz.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Turkiz/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Turkiz/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Turkiz/Models/Gender.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Turkiz/Models/Transaction.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Turkiz/Models/ProductBrand.cs" />
-        <option value="$PROJECT_DIR$/Turkiz/Models/Transaction.cs" />
-        <option value="$PROJECT_DIR$/Turkiz/Models/Color.cs" />
-        <option value="$PROJECT_DIR$/Turkiz/Models/Gender.cs" />
-        <option value="$PROJECT_DIR$/Turkiz/Models/User.cs" />
-        <option value="$PROJECT_DIR$/Turkiz/Models/Product.cs" />
-        <option value="$PROJECT_DIR$/Turkiz/Models/UserType.cs" />
         <option value="$PROJECT_DIR$/Turkiz/Models/ProductType.cs" />
+        <option value="$PROJECT_DIR$/Turkiz/Models/Color.cs" />
+        <option value="$PROJECT_DIR$/Turkiz/Models/ProductBrand.cs" />
+        <option value="$PROJECT_DIR$/Turkiz/Models/Product.cs" />
+        <option value="$PROJECT_DIR$/Turkiz/Models/TransactioinType.cs" />
+        <option value="$PROJECT_DIR$/Turkiz/Models/Transaction.cs" />
+        <option value="$PROJECT_DIR$/Turkiz/Models/User.cs" />
       </list>
     </option>
   </component>
@@ -133,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599740531061</updated>
-      <workItem from="1599740551134" duration="3489000" />
+      <workItem from="1599740551134" duration="1055000" />
     </task>
     <task id="LOCAL-00002" summary="sec_commit">
       <created>1599741663753</created>
@@ -142,28 +142,7 @@
       <option name="project" value="LOCAL" />
       <updated>1599741663753</updated>
     </task>
-    <task id="LOCAL-00003" summary="sec_commit">
-      <created>1599741697250</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1599741697250</updated>
-    </task>
-    <task id="LOCAL-00004" summary="iloveyou">
-      <created>1599743368428</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1599743368428</updated>
-    </task>
-    <task id="LOCAL-00005" summary="sec_commit">
-      <created>1599743633348</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1599743633348</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,16 +163,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="iloveyou" />
     <MESSAGE value="sec_commit" />
     <option name="LAST_COMMIT_MESSAGE" value="sec_commit" />
-    <option name="PRESELECT_EXISTING_CHANGELIST" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="255" y="52" key="CommitChangelistDialog2" timestamp="1599743368497">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="255" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1599743368497" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1599658811940">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -214,13 +187,5 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1599657485055" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1599741715452">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1599741715452" />
-    <state x="82" y="213" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1599743478972">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="82" y="213" key="vcs.ApplyPatchDifferentiatedDialog/0.0.1440.900@0.0.1440.900" timestamp="1599743478972" />
   </component>
 </project>
