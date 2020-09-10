@@ -8,7 +8,7 @@ namespace Turkiz.Models
 {
     public class Transaction
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        
         public int TransactionId { get; set; } // primary key
 
         public DateTime TransactionDate { get; set; }

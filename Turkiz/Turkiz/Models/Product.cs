@@ -16,6 +16,6 @@ namespace Turkiz.Model
         public string Description { get; set; }
         public int Quantity { get; set; }
         public string Metrial { get; set; }
-        public string Gender { get; set; }
+        public Gender Gender { get; set; }
     }
 }

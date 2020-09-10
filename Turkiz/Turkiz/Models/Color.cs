@@ -14,9 +14,5 @@ namespace Turkiz.Models
         Brown,
         Purple,
     }
-    public enum Gender
-    {
-        Male,
-        Women
-    }
+   
 }
