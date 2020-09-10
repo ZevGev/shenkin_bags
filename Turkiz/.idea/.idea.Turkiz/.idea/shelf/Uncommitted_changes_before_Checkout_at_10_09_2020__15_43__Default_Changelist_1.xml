@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_10_09_2020,_15_43_[Default_Changelist]1" date="1599741798748" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_09_2020,_15_43_[Default_Changelist]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 10/09/2020, 15:43 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Turkiz/obj/Debug/netcoreapp3.1/Turkiz.assets.cache" />
+    <option name="AFTER_PATH" value="Turkiz/obj/Debug/netcoreapp3.1/Turkiz.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_09_2020,_15_43_[Default_Changelist]1/Turkiz.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Turkiz/obj/Debug/netcoreapp3.1/Turkiz.csprojAssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Turkiz/obj/Debug/netcoreapp3.1/Turkiz.csprojAssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_09_2020,_15_43_[Default_Changelist]1/Turkiz.csprojAssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Turkiz/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="Turkiz/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_09_2020,_15_43_[Default_Changelist]1/project.nuget.cache" />
+  </binary>
+</changelist>

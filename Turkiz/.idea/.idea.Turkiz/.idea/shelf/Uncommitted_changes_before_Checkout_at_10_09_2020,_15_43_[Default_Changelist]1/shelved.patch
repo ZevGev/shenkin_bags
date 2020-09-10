@@ -1,0 +1,14 @@
+Index: Turkiz/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>15996568418154757
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Turkiz/obj/rider.project.restore.info	(revision c7b688e6e1abcc0b450536a014c2c820ffa541a9)
++++ Turkiz/obj/rider.project.restore.info	(date 1599740723010)
+@@ -1,1 +1,1 @@
+-15996568418154757
+\ No newline at end of file
++15996572664971233
+\ No newline at end of file

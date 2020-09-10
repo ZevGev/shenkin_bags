@@ -1,0 +1,394 @@
+Index: Turkiz/obj/project.assets.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n  \"version\": 3,\n  \"targets\": {\n    \".NETCoreApp,Version=v3.1\": {}\n  },\n  \"libraries\": {},\n  \"projectFileDependencyGroups\": {\n    \".NETCoreApp,Version=v3.1\": []\n  },\n  \"packageFolders\": {\n    \"/home/Zeevig/.nuget/packages/\": {}\n  },\n  \"project\": {\n    \"version\": \"1.0.0\",\n    \"restore\": {\n      \"projectUniqueName\": \"/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj\",\n      \"projectName\": \"Turkiz\",\n      \"projectPath\": \"/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj\",\n      \"packagesPath\": \"/home/Zeevig/.nuget/packages/\",\n      \"outputPath\": \"/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/obj/\",\n      \"projectStyle\": \"PackageReference\",\n      \"configFilePaths\": [\n        \"/home/Zeevig/.nuget/NuGet/NuGet.Config\"\n      ],\n      \"originalTargetFrameworks\": [\n        \"netcoreapp3.1\"\n      ],\n      \"sources\": {\n        \"https://api.nuget.org/v3/index.json\": {}\n      },\n      \"frameworks\": {\n        \"netcoreapp3.1\": {\n          \"projectReferences\": {}\n        }\n      },\n      \"warningProperties\": {\n        \"warnAsError\": [\n          \"NU1605\"\n        ]\n      }\n    },\n    \"frameworks\": {\n      \"netcoreapp3.1\": {\n        \"imports\": [\n          \"net461\",\n          \"net462\",\n          \"net47\",\n          \"net471\",\n          \"net472\",\n          \"net48\"\n        ],\n        \"assetTargetFallback\": true,\n        \"warn\": true,\n        \"frameworkReferences\": {\n          \"Microsoft.AspNetCore.App\": {\n            \"privateAssets\": \"none\"\n          },\n          \"Microsoft.NETCore.App\": {\n            \"privateAssets\": \"all\"\n          }\n        },\n        \"runtimeIdentifierGraphPath\": \"/snap/dotnet-sdk/current/sdk/3.1.402/RuntimeIdentifierGraph.json\"\n      }\n    }\n  }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Turkiz/obj/project.assets.json	(revision c7b688e6e1abcc0b450536a014c2c820ffa541a9)
++++ Turkiz/obj/project.assets.json	(date 1599657266497)
+@@ -8,19 +8,19 @@
+     ".NETCoreApp,Version=v3.1": []
+   },
+   "packageFolders": {
+-    "/home/Zeevig/.nuget/packages/": {}
++    "/Users/eliordayari/.nuget/packages/": {}
+   },
+   "project": {
+     "version": "1.0.0",
+     "restore": {
+-      "projectUniqueName": "/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj",
++      "projectUniqueName": "/Users/eliordayari/Documents/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj",
+       "projectName": "Turkiz",
+-      "projectPath": "/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj",
+-      "packagesPath": "/home/Zeevig/.nuget/packages/",
+-      "outputPath": "/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/obj/",
++      "projectPath": "/Users/eliordayari/Documents/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj",
++      "packagesPath": "/Users/eliordayari/.nuget/packages/",
++      "outputPath": "/Users/eliordayari/Documents/dev/shenkin_bags/Turkiz/Turkiz/obj/",
+       "projectStyle": "PackageReference",
+       "configFilePaths": [
+-        "/home/Zeevig/.nuget/NuGet/NuGet.Config"
++        "/Users/eliordayari/.nuget/NuGet/NuGet.Config"
+       ],
+       "originalTargetFrameworks": [
+         "netcoreapp3.1"
+@@ -59,7 +59,7 @@
+             "privateAssets": "all"
+           }
+         },
+-        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/3.1.402/RuntimeIdentifierGraph.json"
++        "runtimeIdentifierGraphPath": "/Users/eliordayari/.dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+       }
+     }
+   }
+Index: Turkiz/obj/Turkiz.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n  \"format\": 1,\n  \"restore\": {\n    \"/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj\": {}\n  },\n  \"projects\": {\n    \"/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj\": {\n      \"version\": \"1.0.0\",\n      \"restore\": {\n        \"projectUniqueName\": \"/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj\",\n        \"projectName\": \"Turkiz\",\n        \"projectPath\": \"/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj\",\n        \"packagesPath\": \"/home/Zeevig/.nuget/packages/\",\n        \"outputPath\": \"/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/obj/\",\n        \"projectStyle\": \"PackageReference\",\n        \"configFilePaths\": [\n          \"/home/Zeevig/.nuget/NuGet/NuGet.Config\"\n        ],\n        \"originalTargetFrameworks\": [\n          \"netcoreapp3.1\"\n        ],\n        \"sources\": {\n          \"https://api.nuget.org/v3/index.json\": {}\n        },\n        \"frameworks\": {\n          \"netcoreapp3.1\": {\n            \"projectReferences\": {}\n          }\n        },\n        \"warningProperties\": {\n          \"warnAsError\": [\n            \"NU1605\"\n          ]\n        }\n      },\n      \"frameworks\": {\n        \"netcoreapp3.1\": {\n          \"imports\": [\n            \"net461\",\n            \"net462\",\n            \"net47\",\n            \"net471\",\n            \"net472\",\n            \"net48\"\n          ],\n          \"assetTargetFallback\": true,\n          \"warn\": true,\n          \"frameworkReferences\": {\n            \"Microsoft.AspNetCore.App\": {\n              \"privateAssets\": \"none\"\n            },\n            \"Microsoft.NETCore.App\": {\n              \"privateAssets\": \"all\"\n            }\n          },\n          \"runtimeIdentifierGraphPath\": \"/snap/dotnet-sdk/current/sdk/3.1.402/RuntimeIdentifierGraph.json\"\n        }\n      }\n    }\n  }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Turkiz/obj/Turkiz.csproj.nuget.dgspec.json	(revision c7b688e6e1abcc0b450536a014c2c820ffa541a9)
++++ Turkiz/obj/Turkiz.csproj.nuget.dgspec.json	(date 1599657265349)
+@@ -1,20 +1,20 @@
+ {
+   "format": 1,
+   "restore": {
+-    "/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj": {}
++    "/Users/eliordayari/Documents/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj": {}
+   },
+   "projects": {
+-    "/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj": {
++    "/Users/eliordayari/Documents/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj",
++        "projectUniqueName": "/Users/eliordayari/Documents/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj",
+         "projectName": "Turkiz",
+-        "projectPath": "/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj",
+-        "packagesPath": "/home/Zeevig/.nuget/packages/",
+-        "outputPath": "/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/obj/",
++        "projectPath": "/Users/eliordayari/Documents/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj",
++        "packagesPath": "/Users/eliordayari/.nuget/packages/",
++        "outputPath": "/Users/eliordayari/Documents/dev/shenkin_bags/Turkiz/Turkiz/obj/",
+         "projectStyle": "PackageReference",
+         "configFilePaths": [
+-          "/home/Zeevig/.nuget/NuGet/NuGet.Config"
++          "/Users/eliordayari/.nuget/NuGet/NuGet.Config"
+         ],
+         "originalTargetFrameworks": [
+           "netcoreapp3.1"
+@@ -53,7 +53,7 @@
+               "privateAssets": "all"
+             }
+           },
+-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/3.1.402/RuntimeIdentifierGraph.json"
++          "runtimeIdentifierGraphPath": "/Users/eliordayari/.dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+         }
+       }
+     }
+Index: .idea/.idea.Turkiz/.idea/contentModel.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ContentModelStore\">\n    <e p=\"$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources\" t=\"IncludeRecursive\" />\n    <e p=\"$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_Turkiz.1594896570.00\" t=\"ExcludeRecursive\" />\n    <e p=\"$PROJECT_DIR$\" t=\"IncludeFlat\">\n      <e p=\"Turkiz\" t=\"IncludeRecursive\">\n        <e p=\"Controllers\" t=\"Include\">\n          <e p=\"HomeController.cs\" t=\"Include\" />\n        </e>\n        <e p=\"Models\" t=\"Include\">\n          <e p=\"ErrorViewModel.cs\" t=\"Include\" />\n        </e>\n        <e p=\"Program.cs\" t=\"Include\" />\n        <e p=\"Properties\" t=\"Include\">\n          <e p=\"launchSettings.json\" t=\"Include\" />\n        </e>\n        <e p=\"Startup.cs\" t=\"Include\" />\n        <e p=\"Turkiz.csproj\" t=\"IncludeRecursive\" />\n        <e p=\"Views\" t=\"Include\">\n          <e p=\"Home\" t=\"Include\">\n            <e p=\"Index.cshtml\" t=\"Include\" />\n            <e p=\"Privacy.cshtml\" t=\"Include\" />\n          </e>\n          <e p=\"Shared\" t=\"Include\">\n            <e p=\"Error.cshtml\" t=\"Include\" />\n            <e p=\"_Layout.cshtml\" t=\"Include\" />\n            <e p=\"_ValidationScriptsPartial.cshtml\" t=\"Include\" />\n          </e>\n          <e p=\"_ViewImports.cshtml\" t=\"Include\" />\n          <e p=\"_ViewStart.cshtml\" t=\"Include\" />\n        </e>\n        <e p=\"appsettings.Development.json\" t=\"Include\" />\n        <e p=\"appsettings.json\" t=\"Include\" />\n        <e p=\"bin\" t=\"ExcludeRecursive\" />\n        <e p=\"obj\" t=\"ExcludeRecursive\">\n          <e p=\"Debug\" t=\"Include\">\n            <e p=\"netcoreapp3.1\" t=\"Include\">\n              <e p=\"Turkiz.AssemblyInfo.cs\" t=\"Include\" />\n              <e p=\"Turkiz.RazorAssemblyInfo.cs\" t=\"Include\" />\n            </e>\n          </e>\n        </e>\n        <e p=\"wwwroot\" t=\"Include\">\n          <e p=\"css\" t=\"Include\">\n            <e p=\"site.css\" t=\"Include\" />\n          </e>\n          <e p=\"favicon.ico\" t=\"Include\" />\n          <e p=\"js\" t=\"Include\">\n            <e p=\"site.js\" t=\"Include\" />\n          </e>\n          <e p=\"lib\" t=\"Include\">\n            <e p=\"bootstrap\" t=\"Include\">\n              <e p=\"LICENSE\" t=\"Include\" />\n              <e p=\"dist\" t=\"Include\">\n                <e p=\"css\" t=\"Include\">\n                  <e p=\"bootstrap-grid.css\" t=\"Include\" />\n                  <e p=\"bootstrap-grid.css.map\" t=\"Include\" />\n                  <e p=\"bootstrap-grid.min.css\" t=\"Include\" />\n                  <e p=\"bootstrap-grid.min.css.map\" t=\"Include\" />\n                  <e p=\"bootstrap-reboot.css\" t=\"Include\" />\n                  <e p=\"bootstrap-reboot.css.map\" t=\"Include\" />\n                  <e p=\"bootstrap-reboot.min.css\" t=\"Include\" />\n                  <e p=\"bootstrap-reboot.min.css.map\" t=\"Include\" />\n                  <e p=\"bootstrap.css\" t=\"Include\" />\n                  <e p=\"bootstrap.css.map\" t=\"Include\" />\n                  <e p=\"bootstrap.min.css\" t=\"Include\" />\n                  <e p=\"bootstrap.min.css.map\" t=\"Include\" />\n                </e>\n                <e p=\"js\" t=\"Include\">\n                  <e p=\"bootstrap.bundle.js\" t=\"Include\" />\n                  <e p=\"bootstrap.bundle.js.map\" t=\"Include\" />\n                  <e p=\"bootstrap.bundle.min.js\" t=\"Include\" />\n                  <e p=\"bootstrap.bundle.min.js.map\" t=\"Include\" />\n                  <e p=\"bootstrap.js\" t=\"Include\" />\n                  <e p=\"bootstrap.js.map\" t=\"Include\" />\n                  <e p=\"bootstrap.min.js\" t=\"Include\" />\n                  <e p=\"bootstrap.min.js.map\" t=\"Include\" />\n                </e>\n              </e>\n            </e>\n            <e p=\"jquery\" t=\"Include\">\n              <e p=\"LICENSE.txt\" t=\"Include\" />\n              <e p=\"dist\" t=\"Include\">\n                <e p=\"jquery.js\" t=\"Include\" />\n                <e p=\"jquery.min.js\" t=\"Include\" />\n                <e p=\"jquery.min.map\" t=\"Include\" />\n              </e>\n            </e>\n            <e p=\"jquery-validation\" t=\"Include\">\n              <e p=\"LICENSE.md\" t=\"Include\" />\n              <e p=\"dist\" t=\"Include\">\n                <e p=\"additional-methods.js\" t=\"Include\" />\n                <e p=\"additional-methods.min.js\" t=\"Include\" />\n                <e p=\"jquery.validate.js\" t=\"Include\" />\n                <e p=\"jquery.validate.min.js\" t=\"Include\" />\n              </e>\n            </e>\n            <e p=\"jquery-validation-unobtrusive\" t=\"Include\">\n              <e p=\"LICENSE.txt\" t=\"Include\" />\n              <e p=\"jquery.validate.unobtrusive.js\" t=\"Include\" />\n              <e p=\"jquery.validate.unobtrusive.min.js\" t=\"Include\" />\n            </e>\n          </e>\n        </e>\n      </e>\n      <e p=\"Turkiz.sln\" t=\"IncludeFlat\" />\n      <e p=\"packages\" t=\"ExcludeRecursive\" />\n    </e>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.idea.Turkiz/.idea/contentModel.xml	(revision c7b688e6e1abcc0b450536a014c2c820ffa541a9)
++++ .idea/.idea.Turkiz/.idea/contentModel.xml	(date 1599658823099)
+@@ -1,15 +1,29 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ContentModelStore">
+-    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+-    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_Turkiz.1594896570.00" t="ExcludeRecursive" />
+     <e p="$PROJECT_DIR$" t="IncludeFlat">
++      <e p="packages" t="ExcludeRecursive" />
+       <e p="Turkiz" t="IncludeRecursive">
++        <e p="appsettings.Development.json" t="Include" />
++        <e p="appsettings.json" t="Include" />
++        <e p="bin" t="ExcludeRecursive" />
+         <e p="Controllers" t="Include">
+           <e p="HomeController.cs" t="Include" />
+         </e>
+         <e p="Models" t="Include">
++          <e p="Color.cs" t="Include" />
+           <e p="ErrorViewModel.cs" t="Include" />
++          <e p="Product.cs" t="Include" />
++          <e p="ProductBrand.cs" t="Include" />
++          <e p="ProductType.cs" t="Include" />
++        </e>
++        <e p="obj" t="ExcludeRecursive">
++          <e p="Debug" t="Include">
++            <e p="netcoreapp3.1" t="Include">
++              <e p="Turkiz.AssemblyInfo.cs" t="Include" />
++              <e p="Turkiz.RazorAssemblyInfo.cs" t="Include" />
++            </e>
++          </e>
+         </e>
+         <e p="Program.cs" t="Include" />
+         <e p="Properties" t="Include">
+@@ -18,32 +32,21 @@
+         <e p="Startup.cs" t="Include" />
+         <e p="Turkiz.csproj" t="IncludeRecursive" />
+         <e p="Views" t="Include">
++          <e p="_ViewImports.cshtml" t="Include" />
++          <e p="_ViewStart.cshtml" t="Include" />
+           <e p="Home" t="Include">
+             <e p="Index.cshtml" t="Include" />
+             <e p="Privacy.cshtml" t="Include" />
+           </e>
+           <e p="Shared" t="Include">
+-            <e p="Error.cshtml" t="Include" />
+             <e p="_Layout.cshtml" t="Include" />
+             <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+-          </e>
+-          <e p="_ViewImports.cshtml" t="Include" />
+-          <e p="_ViewStart.cshtml" t="Include" />
+-        </e>
+-        <e p="appsettings.Development.json" t="Include" />
+-        <e p="appsettings.json" t="Include" />
+-        <e p="bin" t="ExcludeRecursive" />
+-        <e p="obj" t="ExcludeRecursive">
+-          <e p="Debug" t="Include">
+-            <e p="netcoreapp3.1" t="Include">
+-              <e p="Turkiz.AssemblyInfo.cs" t="Include" />
+-              <e p="Turkiz.RazorAssemblyInfo.cs" t="Include" />
+-            </e>
++            <e p="Error.cshtml" t="Include" />
+           </e>
+         </e>
+         <e p="wwwroot" t="Include">
+           <e p="css" t="Include">
+-            <e p="site.css" t="Include" />
++            <e p="Site.css" t="Include" />
+           </e>
+           <e p="favicon.ico" t="Include" />
+           <e p="js" t="Include">
+@@ -51,7 +54,6 @@
+           </e>
+           <e p="lib" t="Include">
+             <e p="bootstrap" t="Include">
+-              <e p="LICENSE" t="Include" />
+               <e p="dist" t="Include">
+                 <e p="css" t="Include">
+                   <e p="bootstrap-grid.css" t="Include" />
+@@ -78,34 +80,36 @@
+                   <e p="bootstrap.min.js.map" t="Include" />
+                 </e>
+               </e>
++              <e p="LICENSE" t="Include" />
+             </e>
+             <e p="jquery" t="Include">
+-              <e p="LICENSE.txt" t="Include" />
+               <e p="dist" t="Include">
+                 <e p="jquery.js" t="Include" />
+                 <e p="jquery.min.js" t="Include" />
+                 <e p="jquery.min.map" t="Include" />
+               </e>
++              <e p="LICENSE.txt" t="Include" />
+             </e>
+             <e p="jquery-validation" t="Include">
+-              <e p="LICENSE.md" t="Include" />
+               <e p="dist" t="Include">
+                 <e p="additional-methods.js" t="Include" />
+                 <e p="additional-methods.min.js" t="Include" />
+                 <e p="jquery.validate.js" t="Include" />
+                 <e p="jquery.validate.min.js" t="Include" />
+               </e>
++              <e p="LICENSE.md" t="Include" />
+             </e>
+             <e p="jquery-validation-unobtrusive" t="Include">
+-              <e p="LICENSE.txt" t="Include" />
+               <e p="jquery.validate.unobtrusive.js" t="Include" />
+               <e p="jquery.validate.unobtrusive.min.js" t="Include" />
++              <e p="LICENSE.txt" t="Include" />
+             </e>
+           </e>
+         </e>
+       </e>
+       <e p="Turkiz.sln" t="IncludeFlat" />
+-      <e p="packages" t="ExcludeRecursive" />
+     </e>
++    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
++    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_Turkiz.1126903713.00" t="ExcludeRecursive" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/.idea.Turkiz/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"RunManager\" selected=\".NET Launch Settings Profile.Turkiz\">\n    <configuration name=\"Turkiz\" type=\"LaunchSettings\" factoryName=\".NET Launch Settings Profile\">\n      <option name=\"LAUNCH_PROFILE_PROJECT_FILE_PATH\" value=\"$PROJECT_DIR$/Turkiz/Turkiz.csproj\" />\n      <option name=\"LAUNCH_PROFILE_TFM\" value=\".NETCoreApp,Version=v3.1\" />\n      <option name=\"LAUNCH_PROFILE_NAME\" value=\"Turkiz\" />\n      <option name=\"USE_EXTERNAL_CONSOLE\" value=\"0\" />\n      <option name=\"USE_MONO\" value=\"0\" />\n      <option name=\"RUNTIME_ARGUMENTS\" value=\"\" />\n      <option name=\"GENERATE_APPLICATIONHOST_CONFIG\" value=\"1\" />\n      <option name=\"SHOW_IIS_EXPRESS_OUTPUT\" value=\"0\" />\n      <option name=\"SEND_DEBUG_REQUEST\" value=\"1\" />\n      <option name=\"ADDITIONAL_IIS_EXPRESS_ARGUMENTS\" value=\"\" />\n      <method v=\"2\">\n        <option name=\"Build\" />\n      </method>\n    </configuration>\n    <configuration name=\"Turkiz: IIS Express\" type=\"LaunchSettings\" factoryName=\".NET Launch Settings Profile\">\n      <option name=\"LAUNCH_PROFILE_PROJECT_FILE_PATH\" value=\"$PROJECT_DIR$/Turkiz/Turkiz.csproj\" />\n      <option name=\"LAUNCH_PROFILE_TFM\" value=\".NETCoreApp,Version=v3.1\" />\n      <option name=\"LAUNCH_PROFILE_NAME\" value=\"IIS Express\" />\n      <option name=\"USE_EXTERNAL_CONSOLE\" value=\"0\" />\n      <option name=\"USE_MONO\" value=\"0\" />\n      <option name=\"RUNTIME_ARGUMENTS\" value=\"\" />\n      <option name=\"GENERATE_APPLICATIONHOST_CONFIG\" value=\"1\" />\n      <option name=\"SHOW_IIS_EXPRESS_OUTPUT\" value=\"0\" />\n      <option name=\"SEND_DEBUG_REQUEST\" value=\"1\" />\n      <option name=\"ADDITIONAL_IIS_EXPRESS_ARGUMENTS\" value=\"\" />\n      <method v=\"2\">\n        <option name=\"Build\" />\n      </method>\n    </configuration>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.idea.Turkiz/.idea/workspace.xml	(revision c7b688e6e1abcc0b450536a014c2c820ffa541a9)
++++ .idea/.idea.Turkiz/.idea/workspace.xml	(date 1599741064327)
+@@ -1,5 +1,68 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="BranchesTreeState">
++    <expand>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++    </expand>
++    <select />
++  </component>
++  <component name="ChangeListManager">
++    <list default="true" id="df3fb360-96e1-4829-9478-c4607ac7dbe9" name="Default Changelist" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/contentModel.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Turkiz/obj/Debug/netcoreapp3.1/Turkiz.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/Debug/netcoreapp3.1/Turkiz.assets.cache" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Turkiz/obj/Debug/netcoreapp3.1/Turkiz.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/Debug/netcoreapp3.1/Turkiz.csprojAssemblyReference.cache" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Turkiz/obj/Turkiz.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/Turkiz.csproj.nuget.dgspec.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Turkiz/obj/Turkiz.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/Turkiz.csproj.nuget.g.props" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Turkiz/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/project.assets.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Turkiz/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/project.nuget.cache" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Turkiz/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/project.packagespec.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Turkiz/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/rider.project.restore.info" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$/.." value="main" />
++      </map>
++    </option>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
++  </component>
++  <component name="IdeDocumentHistory">
++    <option name="CHANGED_PATHS">
++      <list>
++        <option value="$PROJECT_DIR$/Turkiz/Turkiz.csproj" />
++        <option value="$PROJECT_DIR$/Turkiz/Views/Shared/_Layout.cshtml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectId" id="1hJsp0FzE12qhQ7grHLNPmadp29" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">
++    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
++    <property name="WebServerToolWindowFactoryState" value="false" />
++    <property name="nodejs_package_manager_path" value="npm" />
++    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
++  </component>
+   <component name="RunManager" selected=".NET Launch Settings Profile.Turkiz">
+     <configuration name="Turkiz" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Turkiz/Turkiz.csproj" />
+@@ -32,4 +95,43 @@
+       </method>
+     </configuration>
+   </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="df3fb360-96e1-4829-9478-c4607ac7dbe9" name="Default Changelist" comment="" />
++      <created>1599740713905</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1599740713905</updated>
++      <workItem from="1599740723983" duration="300000" />
++    </task>
++    <servers />
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
++  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++    <option name="oldMeFiltersMigrated" value="true" />
++  </component>
++  <component name="WindowStateProjectService">
++    <state x="257" y="94" key="SettingsEditor" timestamp="1599657439933">
++      <screen x="34" y="23" width="1406" height="877" />
++    </state>
++    <state x="257" y="94" key="SettingsEditor/34.23.1406.877@34.23.1406.877" timestamp="1599657439933" />
++    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599658336081">
++      <screen x="0" y="0" width="1440" height="900" />
++    </state>
++    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1599658336081" />
++  </component>
+ </project>
+\ No newline at end of file
+Index: Turkiz/obj/Turkiz.csproj.nuget.g.props
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<Project ToolsVersion=\"14.0\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\n  <PropertyGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\n    <RestoreSuccess Condition=\" '$(RestoreSuccess)' == '' \">True</RestoreSuccess>\n    <RestoreTool Condition=\" '$(RestoreTool)' == '' \">NuGet</RestoreTool>\n    <ProjectAssetsFile Condition=\" '$(ProjectAssetsFile)' == '' \">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>\n    <NuGetPackageRoot Condition=\" '$(NuGetPackageRoot)' == '' \">/home/Zeevig/.nuget/packages/</NuGetPackageRoot>\n    <NuGetPackageFolders Condition=\" '$(NuGetPackageFolders)' == '' \">/home/Zeevig/.nuget/packages/</NuGetPackageFolders>\n    <NuGetProjectStyle Condition=\" '$(NuGetProjectStyle)' == '' \">PackageReference</NuGetProjectStyle>\n    <NuGetToolVersion Condition=\" '$(NuGetToolVersion)' == '' \">5.5.0</NuGetToolVersion>\n  </PropertyGroup>\n  <PropertyGroup>\n    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>\n  </PropertyGroup>\n</Project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Turkiz/obj/Turkiz.csproj.nuget.g.props	(revision c7b688e6e1abcc0b450536a014c2c820ffa541a9)
++++ Turkiz/obj/Turkiz.csproj.nuget.g.props	(date 1599657266448)
+@@ -4,8 +4,8 @@
+     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+-    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/Zeevig/.nuget/packages/</NuGetPackageRoot>
+-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/Zeevig/.nuget/packages/</NuGetPackageFolders>
++    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/eliordayari/.nuget/packages/</NuGetPackageRoot>
++    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/eliordayari/.nuget/packages/</NuGetPackageFolders>
+     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.5.0</NuGetToolVersion>
+   </PropertyGroup>
+Index: Turkiz/obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n  \"version\": \"1.0.0\",\n  \"restore\": {\n    \"projectUniqueName\": \"/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj\",\n    \"projectName\": \"Turkiz\",\n    \"projectPath\": \"/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj\",\n    \"outputPath\": \"/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/obj/\",\n    \"projectStyle\": \"PackageReference\",\n    \"originalTargetFrameworks\": [\n      \"netcoreapp3.1\"\n    ],\n    \"sources\": {\n      \"https://api.nuget.org/v3/index.json\": {}\n    },\n    \"frameworks\": {\n      \"netcoreapp3.1\": {\n        \"projectReferences\": {}\n      }\n    },\n    \"warningProperties\": {\n      \"warnAsError\": [\n        \"NU1605\"\n      ]\n    }\n  },\n  \"frameworks\": {\n    \"netcoreapp3.1\": {\n      \"imports\": [\n        \"net461\",\n        \"net462\",\n        \"net47\",\n        \"net471\",\n        \"net472\",\n        \"net48\"\n      ],\n      \"assetTargetFallback\": true,\n      \"warn\": true,\n      \"frameworkReferences\": {\n        \"Microsoft.AspNetCore.App\": {\n          \"privateAssets\": \"none\"\n        },\n        \"Microsoft.NETCore.App\": {\n          \"privateAssets\": \"all\"\n        }\n      },\n      \"runtimeIdentifierGraphPath\": \"/snap/dotnet-sdk/current/sdk/3.1.402/RuntimeIdentifierGraph.json\"\n    }\n  }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Turkiz/obj/project.packagespec.json	(revision c7b688e6e1abcc0b450536a014c2c820ffa541a9)
++++ Turkiz/obj/project.packagespec.json	(date 1599657262520)
+@@ -1,10 +1,10 @@
+ {
+   "version": "1.0.0",
+   "restore": {
+-    "projectUniqueName": "/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj",
++    "projectUniqueName": "/Users/eliordayari/Documents/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj",
+     "projectName": "Turkiz",
+-    "projectPath": "/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj",
+-    "outputPath": "/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/obj/",
++    "projectPath": "/Users/eliordayari/Documents/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj",
++    "outputPath": "/Users/eliordayari/Documents/dev/shenkin_bags/Turkiz/Turkiz/obj/",
+     "projectStyle": "PackageReference",
+     "originalTargetFrameworks": [
+       "netcoreapp3.1"
+@@ -43,7 +43,7 @@
+           "privateAssets": "all"
+         }
+       },
+-      "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/3.1.402/RuntimeIdentifierGraph.json"
++      "runtimeIdentifierGraphPath": "/Users/eliordayari/.dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+     }
+   }
+ }
+\ No newline at end of file

@@ -1,0 +1,114 @@
+Index: Turkiz/Models/User.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>namespace Turkiz.Models\n{\n    public class User\n    {\n        public string UserName { get; set; }\n        public string Password { get; set; }\n        public string Email { get; set; }\n        public string? Phone { get; set; }\n        public bool UserType { get; set; } // 0 = client 1 = admin\n        \n        \n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Turkiz/Models/User.cs	(revision 4cd2af461801c0f5d297256521100797841d6e57)
++++ Turkiz/Models/User.cs	(date 1599743187163)
+@@ -2,6 +2,7 @@
+ {
+     public class User
+     {
++        public int UserId { get; set; }        
+         public string UserName { get; set; }
+         public string Password { get; set; }
+         public string Email { get; set; }
+Index: Turkiz/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>15996568418154757
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Turkiz/obj/rider.project.restore.info	(revision 4cd2af461801c0f5d297256521100797841d6e57)
++++ Turkiz/obj/rider.project.restore.info	(date 1599741787820)
+@@ -1,1 +1,1 @@
+-15996568418154757
+\ No newline at end of file
++15996572664971233
+\ No newline at end of file
+Index: .idea/.idea.Turkiz/.idea/contentModel.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ContentModelStore\">\n    <e p=\"$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/extResources\" t=\"IncludeRecursive\" />\n    <e p=\"$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_Turkiz.915616313.00\" t=\"ExcludeRecursive\" />\n    <e p=\"$PROJECT_DIR$\" t=\"IncludeFlat\">\n      <e p=\"packages\" t=\"ExcludeRecursive\" />\n      <e p=\"Turkiz\" t=\"IncludeRecursive\">\n        <e p=\"appsettings.Development.json\" t=\"Include\" />\n        <e p=\"appsettings.json\" t=\"Include\" />\n        <e p=\"bin\" t=\"ExcludeRecursive\" />\n        <e p=\"Controllers\" t=\"Include\">\n          <e p=\"HomeController.cs\" t=\"Include\" />\n        </e>\n        <e p=\"Models\" t=\"Include\">\n          <e p=\"Color.cs\" t=\"Include\" />\n          <e p=\"ErrorViewModel.cs\" t=\"Include\" />\n          <e p=\"Product.cs\" t=\"Include\" />\n          <e p=\"ProductBrand.cs\" t=\"Include\" />\n          <e p=\"ProductType.cs\" t=\"Include\" />\n          <e p=\"User.cs\" t=\"Include\" />\n        </e>\n        <e p=\"obj\" t=\"ExcludeRecursive\">\n          <e p=\"Debug\" t=\"Include\">\n            <e p=\"netcoreapp3.1\" t=\"Include\">\n              <e p=\"Turkiz.AssemblyInfo.cs\" t=\"Include\" />\n              <e p=\"Turkiz.RazorAssemblyInfo.cs\" t=\"Include\" />\n            </e>\n          </e>\n        </e>\n        <e p=\"Program.cs\" t=\"Include\" />\n        <e p=\"Properties\" t=\"Include\">\n          <e p=\"launchSettings.json\" t=\"Include\" />\n        </e>\n        <e p=\"Startup.cs\" t=\"Include\" />\n        <e p=\"Turkiz.csproj\" t=\"IncludeRecursive\" />\n        <e p=\"Views\" t=\"Include\">\n          <e p=\"_ViewImports.cshtml\" t=\"Include\" />\n          <e p=\"_ViewStart.cshtml\" t=\"Include\" />\n          <e p=\"Home\" t=\"Include\">\n            <e p=\"Index.cshtml\" t=\"Include\" />\n            <e p=\"Privacy.cshtml\" t=\"Include\" />\n          </e>\n          <e p=\"Shared\" t=\"Include\">\n            <e p=\"_Layout.cshtml\" t=\"Include\" />\n            <e p=\"_ValidationScriptsPartial.cshtml\" t=\"Include\" />\n            <e p=\"Error.cshtml\" t=\"Include\" />\n          </e>\n        </e>\n        <e p=\"wwwroot\" t=\"Include\">\n          <e p=\"css\" t=\"Include\">\n            <e p=\"Site.css\" t=\"Include\" />\n          </e>\n          <e p=\"favicon.ico\" t=\"Include\" />\n          <e p=\"js\" t=\"Include\">\n            <e p=\"site.js\" t=\"Include\" />\n          </e>\n          <e p=\"lib\" t=\"Include\">\n            <e p=\"bootstrap\" t=\"Include\">\n              <e p=\"dist\" t=\"Include\">\n                <e p=\"css\" t=\"Include\">\n                  <e p=\"bootstrap-grid.css\" t=\"Include\" />\n                  <e p=\"bootstrap-grid.css.map\" t=\"Include\" />\n                  <e p=\"bootstrap-grid.min.css\" t=\"Include\" />\n                  <e p=\"bootstrap-grid.min.css.map\" t=\"Include\" />\n                  <e p=\"bootstrap-reboot.css\" t=\"Include\" />\n                  <e p=\"bootstrap-reboot.css.map\" t=\"Include\" />\n                  <e p=\"bootstrap-reboot.min.css\" t=\"Include\" />\n                  <e p=\"bootstrap-reboot.min.css.map\" t=\"Include\" />\n                  <e p=\"bootstrap.css\" t=\"Include\" />\n                  <e p=\"bootstrap.css.map\" t=\"Include\" />\n                  <e p=\"bootstrap.min.css\" t=\"Include\" />\n                  <e p=\"bootstrap.min.css.map\" t=\"Include\" />\n                </e>\n                <e p=\"js\" t=\"Include\">\n                  <e p=\"bootstrap.bundle.js\" t=\"Include\" />\n                  <e p=\"bootstrap.bundle.js.map\" t=\"Include\" />\n                  <e p=\"bootstrap.bundle.min.js\" t=\"Include\" />\n                  <e p=\"bootstrap.bundle.min.js.map\" t=\"Include\" />\n                  <e p=\"bootstrap.js\" t=\"Include\" />\n                  <e p=\"bootstrap.js.map\" t=\"Include\" />\n                  <e p=\"bootstrap.min.js\" t=\"Include\" />\n                  <e p=\"bootstrap.min.js.map\" t=\"Include\" />\n                </e>\n              </e>\n              <e p=\"LICENSE\" t=\"Include\" />\n            </e>\n            <e p=\"jquery\" t=\"Include\">\n              <e p=\"dist\" t=\"Include\">\n                <e p=\"jquery.js\" t=\"Include\" />\n                <e p=\"jquery.min.js\" t=\"Include\" />\n                <e p=\"jquery.min.map\" t=\"Include\" />\n              </e>\n              <e p=\"LICENSE.txt\" t=\"Include\" />\n            </e>\n            <e p=\"jquery-validation\" t=\"Include\">\n              <e p=\"dist\" t=\"Include\">\n                <e p=\"additional-methods.js\" t=\"Include\" />\n                <e p=\"additional-methods.min.js\" t=\"Include\" />\n                <e p=\"jquery.validate.js\" t=\"Include\" />\n                <e p=\"jquery.validate.min.js\" t=\"Include\" />\n              </e>\n              <e p=\"LICENSE.md\" t=\"Include\" />\n            </e>\n            <e p=\"jquery-validation-unobtrusive\" t=\"Include\">\n              <e p=\"jquery.validate.unobtrusive.js\" t=\"Include\" />\n              <e p=\"jquery.validate.unobtrusive.min.js\" t=\"Include\" />\n              <e p=\"LICENSE.txt\" t=\"Include\" />\n            </e>\n          </e>\n        </e>\n      </e>\n      <e p=\"Turkiz.sln\" t=\"IncludeFlat\" />\n    </e>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.idea.Turkiz/.idea/contentModel.xml	(revision 4cd2af461801c0f5d297256521100797841d6e57)
++++ .idea/.idea.Turkiz/.idea/contentModel.xml	(date 1599741877401)
+@@ -1,8 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ContentModelStore">
+-    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />
+-    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_Turkiz.915616313.00" t="ExcludeRecursive" />
+     <e p="$PROJECT_DIR$" t="IncludeFlat">
+       <e p="packages" t="ExcludeRecursive" />
+       <e p="Turkiz" t="IncludeRecursive">
+@@ -112,5 +110,7 @@
+       </e>
+       <e p="Turkiz.sln" t="IncludeFlat" />
+     </e>
++    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
++    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_Turkiz.1126903713.00" t="ExcludeRecursive" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/.idea.Turkiz/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"faa34f3f-9bf6-42b4-848a-89ffc51b6bd2\" name=\"Default Changelist\" comment=\"sec_commit\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$/..\" value=\"main\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\n  </component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"file://$PROJECT_DIR$/Turkiz/obj/Debug/netcoreapp3.1/Turkiz.AssemblyInfo.cs\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/Turkiz/Models/ProductBrand.cs\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/Turkiz/Models/ProductType.cs\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/Turkiz/Models/Color.cs\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/Turkiz/Views/Shared/_Layout.cshtml\" root0=\"FORCE_HIGHLIGHTING\" root1=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/Turkiz/Models/Product.cs\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/Turkiz/Models/User.cs\" root0=\"FORCE_HIGHLIGHTING\" />\n  </component>\n  <component name=\"IdeDocumentHistory\">\n    <option name=\"CHANGED_PATHS\">\n      <list>\n        <option value=\"$PROJECT_DIR$/Turkiz/Models/ProductType.cs\" />\n        <option value=\"$PROJECT_DIR$/Turkiz/Models/Color.cs\" />\n        <option value=\"$PROJECT_DIR$/Turkiz/Models/ProductBrand.cs\" />\n        <option value=\"$PROJECT_DIR$/Turkiz/Models/Product.cs\" />\n        <option value=\"$PROJECT_DIR$/Turkiz/Models/User.cs\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"ProjectId\" id=\"1hJsSPhStr3yXMJPbJPaBDfjjls\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.keymap\" />\n  </component>\n  <component name=\"RunManager\" selected=\".NET Launch Settings Profile.Turkiz\">\n    <configuration name=\"Turkiz\" type=\"LaunchSettings\" factoryName=\".NET Launch Settings Profile\">\n      <option name=\"LAUNCH_PROFILE_PROJECT_FILE_PATH\" value=\"$PROJECT_DIR$/Turkiz/Turkiz.csproj\" />\n      <option name=\"LAUNCH_PROFILE_TFM\" value=\".NETCoreApp,Version=v3.1\" />\n      <option name=\"LAUNCH_PROFILE_NAME\" value=\"Turkiz\" />\n      <option name=\"USE_EXTERNAL_CONSOLE\" value=\"0\" />\n      <option name=\"USE_MONO\" value=\"0\" />\n      <option name=\"RUNTIME_ARGUMENTS\" value=\"\" />\n      <option name=\"GENERATE_APPLICATIONHOST_CONFIG\" value=\"1\" />\n      <option name=\"SHOW_IIS_EXPRESS_OUTPUT\" value=\"0\" />\n      <option name=\"SEND_DEBUG_REQUEST\" value=\"1\" />\n      <option name=\"ADDITIONAL_IIS_EXPRESS_ARGUMENTS\" value=\"\" />\n      <method v=\"2\">\n        <option name=\"Build\" />\n      </method>\n    </configuration>\n    <configuration name=\"Turkiz: IIS Express\" type=\"LaunchSettings\" factoryName=\".NET Launch Settings Profile\">\n      <option name=\"LAUNCH_PROFILE_PROJECT_FILE_PATH\" value=\"$PROJECT_DIR$/Turkiz/Turkiz.csproj\" />\n      <option name=\"LAUNCH_PROFILE_TFM\" value=\".NETCoreApp,Version=v3.1\" />\n      <option name=\"LAUNCH_PROFILE_NAME\" value=\"IIS Express\" />\n      <option name=\"USE_EXTERNAL_CONSOLE\" value=\"0\" />\n      <option name=\"USE_MONO\" value=\"0\" />\n      <option name=\"RUNTIME_ARGUMENTS\" value=\"\" />\n      <option name=\"GENERATE_APPLICATIONHOST_CONFIG\" value=\"1\" />\n      <option name=\"SHOW_IIS_EXPRESS_OUTPUT\" value=\"0\" />\n      <option name=\"SEND_DEBUG_REQUEST\" value=\"1\" />\n      <option name=\"ADDITIONAL_IIS_EXPRESS_ARGUMENTS\" value=\"\" />\n      <method v=\"2\">\n        <option name=\"Build\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task id=\"LOCAL-00001\" summary=\"sec_commit\">\n      <created>1599658282792</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1599658282792</updated>\n    </task>\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"faa34f3f-9bf6-42b4-848a-89ffc51b6bd2\" name=\"Default Changelist\" comment=\"\" />\n      <created>1599740531061</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1599740531061</updated>\n      <workItem from=\"1599740551134\" duration=\"1055000\" />\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"sec_commit\">\n      <created>1599741663753</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1599741663753</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"3\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"2\" />\n  </component>\n  <component name=\"UnityProjectConfiguration\" hasMinimizedUI=\"false\" />\n  <component name=\"UnityUnitTestConfiguration\" currentTestLauncher=\"EditMode\" />\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"sec_commit\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"sec_commit\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state width=\"1398\" height=\"245\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1599658811940\">\n      <screen x=\"0\" y=\"0\" width=\"1440\" height=\"900\" />\n    </state>\n    <state width=\"1398\" height=\"245\" key=\"GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900\" timestamp=\"1599658811940\" />\n    <state width=\"1398\" height=\"245\" key=\"GridCell.Tab.0.center\" timestamp=\"1599658811938\">\n      <screen x=\"0\" y=\"0\" width=\"1440\" height=\"900\" />\n    </state>\n    <state width=\"1398\" height=\"245\" key=\"GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900\" timestamp=\"1599658811938\" />\n    <state width=\"1398\" height=\"245\" key=\"GridCell.Tab.0.left\" timestamp=\"1599658811936\">\n      <screen x=\"0\" y=\"0\" width=\"1440\" height=\"900\" />\n    </state>\n    <state width=\"1398\" height=\"245\" key=\"GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900\" timestamp=\"1599658811936\" />\n    <state width=\"1398\" height=\"245\" key=\"GridCell.Tab.0.right\" timestamp=\"1599658811939\">\n      <screen x=\"0\" y=\"0\" width=\"1440\" height=\"900\" />\n    </state>\n    <state width=\"1398\" height=\"245\" key=\"GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900\" timestamp=\"1599658811939\" />\n    <state x=\"221\" y=\"89\" key=\"SettingsEditor\" timestamp=\"1599657485055\">\n      <screen x=\"0\" y=\"0\" width=\"1440\" height=\"900\" />\n    </state>\n    <state x=\"221\" y=\"89\" key=\"SettingsEditor/0.0.1440.900@0.0.1440.900\" timestamp=\"1599657485055\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.idea.Turkiz/.idea/workspace.xml	(revision 4cd2af461801c0f5d297256521100797841d6e57)
++++ .idea/.idea.Turkiz/.idea/workspace.xml	(date 1599743645672)
+@@ -19,7 +19,12 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="faa34f3f-9bf6-42b4-848a-89ffc51b6bd2" name="Default Changelist" comment="sec_commit" />
++    <list default="true" id="faa34f3f-9bf6-42b4-848a-89ffc51b6bd2" name="Default Changelist" comment="sec_commit">
++      <change beforePath="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/contentModel.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Turkiz/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Turkiz/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/Models/User.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Turkiz/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Turkiz/obj/rider.project.restore.info" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -28,18 +33,18 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$/.." value="main" />
++        <entry key="$PROJECT_DIR$/.." value="sec_commit" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+   </component>
+   <component name="HighlightingSettingsPerFile">
+-    <setting file="file://$PROJECT_DIR$/Turkiz/obj/Debug/netcoreapp3.1/Turkiz.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+     <setting file="file://$PROJECT_DIR$/Turkiz/Models/ProductBrand.cs" root0="FORCE_HIGHLIGHTING" />
+     <setting file="file://$PROJECT_DIR$/Turkiz/Models/ProductType.cs" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/Turkiz/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
+     <setting file="file://$PROJECT_DIR$/Turkiz/Models/Color.cs" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/Turkiz/obj/Debug/netcoreapp3.1/Turkiz.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+     <setting file="file://$PROJECT_DIR$/Turkiz/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+-    <setting file="file://$PROJECT_DIR$/Turkiz/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
+     <setting file="file://$PROJECT_DIR$/Turkiz/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
+   </component>
+   <component name="IdeDocumentHistory">
+@@ -151,6 +156,10 @@
+     <option name="LAST_COMMIT_MESSAGE" value="sec_commit" />
+   </component>
+   <component name="WindowStateProjectService">
++    <state x="670" y="320" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1599743543262">
++      <screen x="43" y="23" width="1877" height="1057" />
++    </state>
++    <state x="670" y="320" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/43.23.1877.1057@43.23.1877.1057" timestamp="1599743543262" />
+     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1599658811940">
+       <screen x="0" y="0" width="1440" height="900" />
+     </state>
