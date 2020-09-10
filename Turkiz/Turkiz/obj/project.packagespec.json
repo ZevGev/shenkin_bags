@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj",
+    "projectUniqueName": "/Users/yarinmeron/RiderProjects/Shenkin_Bags/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj",
     "projectName": "Turkiz",
-    "projectPath": "/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj",
-    "outputPath": "/home/Zeevig/dev/shenkin_bags/Turkiz/Turkiz/obj/",
+    "projectPath": "/Users/yarinmeron/RiderProjects/Shenkin_Bags/shenkin_bags/Turkiz/Turkiz/Turkiz.csproj",
+    "outputPath": "/Users/yarinmeron/RiderProjects/Shenkin_Bags/shenkin_bags/Turkiz/Turkiz/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -43,7 +43,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/3.1.402/RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
     }
   }
 }
